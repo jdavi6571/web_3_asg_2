@@ -1,0 +1,2162 @@
+[
+  {
+    "symbol": "A",
+    "name": "Agilent Technologies Inc",
+    "sector": "Health Care",
+    "subindustry": "Health Care Equipment",
+    "address": "Santa Clara, California",
+    "date_added": "",
+    "CIK": 1090872,
+    "frequency": 10
+  },
+  {
+    "symbol": "AAP",
+    "name": "Advance Auto Parts",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Automotive Retail",
+    "address": "Roanoke, Virginia",
+    "date_added": "7/9/2015",
+    "CIK": 1158449,
+    "frequency": 2
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Computer Hardware",
+    "address": "Cupertino, California",
+    "date_added": "11/30/1982",
+    "CIK": 320193,
+    "frequency": 43
+  },
+  {
+    "symbol": "ABC",
+    "name": "AmerisourceBergen Corp",
+    "sector": "Health Care",
+    "subindustry": "Health Care Distributors",
+    "address": "Chesterbrook, Pennsylvania",
+    "date_added": "",
+    "CIK": 1140859,
+    "frequency": 5
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "sector": "Health Care",
+    "subindustry": "Health Care Equipment",
+    "address": "North Chicago, Illinois",
+    "date_added": "3/31/1964",
+    "CIK": 1800,
+    "frequency": 5
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc",
+    "sector": "Information Technology",
+    "subindustry": "IT Consulting & Other Services",
+    "address": "Dublin, Ireland",
+    "date_added": "7/6/2011",
+    "CIK": 1467373,
+    "frequency": 7
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Systems Inc",
+    "sector": "Information Technology",
+    "subindustry": "Application Software",
+    "address": "San Jose, California",
+    "date_added": "5/5/1997",
+    "CIK": 796343,
+    "frequency": 14
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices, Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "Norwood, Massachusetts",
+    "date_added": "",
+    "CIK": 6281,
+    "frequency": 2
+  },
+  {
+    "symbol": "ADM",
+    "name": "Archer-Daniels-Midland Co",
+    "sector": "Consumer Staples",
+    "subindustry": "Agricultural Products",
+    "address": "Decatur, Illinois",
+    "date_added": "7/29/1981",
+    "CIK": 7084,
+    "frequency": 6
+  },
+  {
+    "symbol": "ADP",
+    "name": "Automatic Data Processing",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Roseland, New Jersey",
+    "date_added": "3/31/1981",
+    "CIK": 8670,
+    "frequency": 1
+  },
+  {
+    "symbol": "ADS",
+    "name": "Alliance Data Systems",
+    "sector": "Information Technology",
+    "subindustry": "Data Processing & Outsourced Services",
+    "address": "Plano, Texas",
+    "date_added": "12/23/2013",
+    "CIK": 1101215,
+    "frequency": 1
+  },
+  {
+    "symbol": "ADSK",
+    "name": "Autodesk Inc",
+    "sector": "Information Technology",
+    "subindustry": "Application Software",
+    "address": "San Rafael, California",
+    "date_added": "12/1/1989",
+    "CIK": 769397,
+    "frequency": 11
+  },
+  {
+    "symbol": "AEP",
+    "name": "American Electric Power",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Columbus, Ohio",
+    "date_added": "",
+    "CIK": 4904,
+    "frequency": 8
+  },
+  {
+    "symbol": "AES",
+    "name": "AES Corp",
+    "sector": "Utilities",
+    "subindustry": "Independent Power Producers & Energy Traders",
+    "address": "Arlington, Virginia",
+    "date_added": "",
+    "CIK": 874761,
+    "frequency": 5
+  },
+  {
+    "symbol": "AFL",
+    "name": "AFLAC Inc",
+    "sector": "Financials",
+    "subindustry": "Life & Health Insurance",
+    "address": "Columbus, Georgia",
+    "date_added": "",
+    "CIK": 4977,
+    "frequency": 2
+  },
+  {
+    "symbol": "AIG",
+    "name": "American International Group, Inc.",
+    "sector": "Financials",
+    "subindustry": "Property & Casualty Insurance",
+    "address": "New York, New York",
+    "date_added": "3/31/1980",
+    "CIK": 5272,
+    "frequency": 10
+  },
+  {
+    "symbol": "AIZ",
+    "name": "Assurant Inc",
+    "sector": "Financials",
+    "subindustry": "Multi-line Insurance",
+    "address": "New York, New York",
+    "date_added": "4/10/2007",
+    "CIK": 1267238,
+    "frequency": 9
+  },
+  {
+    "symbol": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "sector": "Financials",
+    "subindustry": "Insurance Brokers",
+    "address": "Itasca, Illinois",
+    "date_added": "5/31/2016",
+    "CIK": 354190,
+    "frequency": 4
+  },
+  {
+    "symbol": "AKAM",
+    "name": "Akamai Technologies Inc",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Cambridge, Massachusetts",
+    "date_added": "7/12/2007",
+    "CIK": 1086222,
+    "frequency": 8
+  },
+  {
+    "symbol": "ALL",
+    "name": "Allstate Corp",
+    "sector": "Financials",
+    "subindustry": "Property & Casualty Insurance",
+    "address": "Northfield Township, Illinois",
+    "date_added": "",
+    "CIK": 899051,
+    "frequency": 3
+  },
+  {
+    "symbol": "ALXN",
+    "name": "Alexion Pharmaceuticals",
+    "sector": "Health Care",
+    "subindustry": "Biotechnology",
+    "address": "Cheshire, Connecticut",
+    "date_added": "5/25/2012",
+    "CIK": 899866,
+    "frequency": 5
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductor Equipment",
+    "address": "Santa Clara, California",
+    "date_added": "",
+    "CIK": 6951,
+    "frequency": 6
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductor",
+    "address": "Sunnyvale, California",
+    "date_added": "3/20/2017",
+    "CIK": 2488,
+    "frequency": 8
+  },
+  {
+    "symbol": "AME",
+    "name": "AMETEK Inc",
+    "sector": "Industrials",
+    "subindustry": "Electrical Components & Equipment",
+    "address": "Berwyn, Pennsylvania",
+    "date_added": "9/23/2013",
+    "CIK": 1037868,
+    "frequency": 1
+  },
+  {
+    "symbol": "AMGN",
+    "name": "Amgen Inc",
+    "sector": "Health Care",
+    "subindustry": "Biotechnology",
+    "address": "Thousand Oaks, California",
+    "date_added": "1/2/1992",
+    "CIK": 318154,
+    "frequency": 6
+  },
+  {
+    "symbol": "AMT",
+    "name": "American Tower Corp A",
+    "sector": "Real Estate",
+    "subindustry": "Specialized REITs",
+    "address": "Boston, Massachusetts",
+    "date_added": "11/19/2007",
+    "CIK": 1053507,
+    "frequency": 3
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Internet & Direct Marketing Retail",
+    "address": "Seattle, Washington",
+    "date_added": "11/18/2005",
+    "CIK": 1018724,
+    "frequency": 31
+  },
+  {
+    "symbol": "AON",
+    "name": "Aon plc",
+    "sector": "Financials",
+    "subindustry": "Insurance Brokers",
+    "address": "London, United Kingdom",
+    "date_added": "",
+    "CIK": 315293,
+    "frequency": 2
+  },
+  {
+    "symbol": "AOS",
+    "name": "A.O. Smith�Corp",
+    "sector": "Industrials",
+    "subindustry": "Building Products",
+    "address": "Milwaukee, Wisconsin",
+    "date_added": "7/26/2017",
+    "CIK": 91142,
+    "frequency": 5
+  },
+  {
+    "symbol": "APA",
+    "name": "Apache Corporation",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Exploration & Production",
+    "address": "Houston, Texas",
+    "date_added": "",
+    "CIK": 6769,
+    "frequency": 9
+  },
+  {
+    "symbol": "APC",
+    "name": "Anadarko Petroleum Corp",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Exploration & Production",
+    "address": "The Woodlands, Texas",
+    "date_added": "",
+    "CIK": 773910,
+    "frequency": 10
+  },
+  {
+    "symbol": "APH",
+    "name": "Amphenol Corp",
+    "sector": "Information Technology",
+    "subindustry": "Electronic Components",
+    "address": "Wallingford, Connecticut",
+    "date_added": "9/30/2008",
+    "CIK": 820313,
+    "frequency": 1
+  },
+  {
+    "symbol": "ATVI",
+    "name": "Activision Blizzard",
+    "sector": "Information Technology",
+    "subindustry": "Home Entertainment Software",
+    "address": "Santa Monica, California",
+    "date_added": "8/31/2015",
+    "CIK": 718877,
+    "frequency": 11
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "San Jose, California",
+    "date_added": "5/8/2014",
+    "CIK": 1441634,
+    "frequency": 3
+  },
+  {
+    "symbol": "AWK",
+    "name": "American Water Works Company Inc",
+    "sector": "Utilities",
+    "subindustry": "Water Utilities",
+    "address": "Voorhees, New Jersey",
+    "date_added": "3/4/2016",
+    "CIK": 1410636,
+    "frequency": 7
+  },
+  {
+    "symbol": "AXP",
+    "name": "American Express Co",
+    "sector": "Financials",
+    "subindustry": "Consumer Finance",
+    "address": "New York, New York",
+    "date_added": "6/30/1976",
+    "CIK": 4962,
+    "frequency": 5
+  },
+  {
+    "symbol": "AYI",
+    "name": "Acuity Brands Inc",
+    "sector": "Industrials",
+    "subindustry": "Electrical Components & Equipment",
+    "address": "Atlanta, Georgia",
+    "date_added": "5/3/2016",
+    "CIK": 1144215,
+    "frequency": 7
+  },
+  {
+    "symbol": "BA",
+    "name": "Boeing Company",
+    "sector": "Industrials",
+    "subindustry": "Aerospace & Defense",
+    "address": "Chicago, Illinois",
+    "date_added": "",
+    "CIK": 12927,
+    "frequency": 5
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America Corp",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "Charlotte, North Carolina",
+    "date_added": "6/30/1976",
+    "CIK": 70858,
+    "frequency": 16
+  },
+  {
+    "symbol": "BAX",
+    "name": "Baxter International Inc.",
+    "sector": "Health Care",
+    "subindustry": "Health Care Equipment",
+    "address": "Deerfield, Illinois",
+    "date_added": "9/30/1972",
+    "CIK": 10456,
+    "frequency": 7
+  },
+  {
+    "symbol": "BBT",
+    "name": "BB&T Corporation",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "Winston-Salem, North Carolina",
+    "date_added": "",
+    "CIK": 92230,
+    "frequency": 7
+  },
+  {
+    "symbol": "BBY",
+    "name": "Best Buy Co. Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Computer & Electronics Retail",
+    "address": "Richfield, Minnesota",
+    "date_added": "",
+    "CIK": 764478,
+    "frequency": 3
+  },
+  {
+    "symbol": "BF.B",
+    "name": "Brown-Forman Corporation",
+    "sector": "Consumer Staples",
+    "subindustry": "Distillers & Vintners",
+    "address": "Louisville, Kentucky",
+    "date_added": "10/31/1982",
+    "CIK": 14693,
+    "frequency": 2
+  },
+  {
+    "symbol": "BIIB",
+    "name": "BIOGEN IDEC Inc.",
+    "sector": "Health Care",
+    "subindustry": "Biotechnology",
+    "address": "Weston, Massachusetts",
+    "date_added": "",
+    "CIK": 875045,
+    "frequency": 8
+  },
+  {
+    "symbol": "BK",
+    "name": "The Bank of New York Mellon Corp.",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1390777,
+    "frequency": 4
+  },
+  {
+    "symbol": "BLK",
+    "name": "BlackRock",
+    "sector": "Financials",
+    "subindustry": "Asset Management & Custody Banks",
+    "address": "New York, New York",
+    "date_added": "4/4/2011",
+    "CIK": 1364742,
+    "frequency": 3
+  },
+  {
+    "symbol": "BLL",
+    "name": "Ball Corp",
+    "sector": "Materials",
+    "subindustry": "Metal & Glass Containers",
+    "address": "Broomfield, Colorado",
+    "date_added": "10/31/1984",
+    "CIK": 9389,
+    "frequency": 3
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb",
+    "sector": "Health Care",
+    "subindustry": "Health Care Distributors",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 14272,
+    "frequency": 9
+  },
+  {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "sector": "Financials",
+    "subindustry": "Multi-Sector Holdings",
+    "address": "Omaha, Nebraska",
+    "date_added": "2/16/2010",
+    "CIK": 1067983,
+    "frequency": 19
+  },
+  {
+    "symbol": "BWA",
+    "name": "BorgWarner",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Auto Parts & Equipment",
+    "address": "Auburn Hills, Michigan",
+    "date_added": "12/19/2011",
+    "CIK": 908255,
+    "frequency": 3
+  },
+  {
+    "symbol": "C",
+    "name": "Citigroup Inc.",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "New York, New York",
+    "date_added": "5/31/1988",
+    "CIK": 831001,
+    "frequency": 18
+  },
+  {
+    "symbol": "CA",
+    "name": "CA, Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Systems Software",
+    "address": "Islandia, New York",
+    "date_added": "7/31/1987",
+    "CIK": 356028,
+    "frequency": 4
+  },
+  {
+    "symbol": "CAH",
+    "name": "Cardinal Health Inc.",
+    "sector": "Health Care",
+    "subindustry": "Health Care Distributors",
+    "address": "Dublin, Ohio",
+    "date_added": "",
+    "CIK": 721371,
+    "frequency": 8
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc.",
+    "sector": "Industrials",
+    "subindustry": "Construction & Farm Machinery & Heavy Trucks",
+    "address": "Peoria, Illinois",
+    "date_added": "",
+    "CIK": 18230,
+    "frequency": 8
+  },
+  {
+    "symbol": "CB",
+    "name": "Chubb Limited",
+    "sector": "Financials",
+    "subindustry": "Property & Casualty Insurance",
+    "address": "Zurich, Switzerland",
+    "date_added": "7/15/2010",
+    "CIK": 896159,
+    "frequency": 4
+  },
+  {
+    "symbol": "CBG",
+    "name": "CBRE Group",
+    "sector": "Real Estate",
+    "subindustry": "Real Estate Services",
+    "address": "Los Angeles, California",
+    "date_added": "",
+    "CIK": 1138118,
+    "frequency": 3
+  },
+  {
+    "symbol": "CBS",
+    "name": "CBS Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Broadcasting & Cable TV",
+    "address": "New York, New York",
+    "date_added": "9/1/1994",
+    "CIK": 813828,
+    "frequency": 7
+  },
+  {
+    "symbol": "CCL",
+    "name": "Carnival Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Hotels, Resorts & Cruise Lines",
+    "address": "Miami, Florida",
+    "date_added": "",
+    "CIK": 815097,
+    "frequency": 7
+  },
+  {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems",
+    "sector": "Information Technology",
+    "subindustry": "Application Software",
+    "address": "San Jose, California",
+    "date_added": "9/18/2017",
+    "CIK": 813672,
+    "frequency": 3
+  },
+  {
+    "symbol": "CHD",
+    "name": "Church & Dwight",
+    "sector": "Consumer Staples",
+    "subindustry": "Household Products",
+    "address": "Ewing, New Jersey",
+    "date_added": "12/29/2015",
+    "CIK": 313927,
+    "frequency": 5
+  },
+  {
+    "symbol": "CHTR",
+    "name": "Charter Communications",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Cable & Satellite",
+    "address": "Stamford, Connecticut",
+    "date_added": "9/8/2016",
+    "CIK": 1091667,
+    "frequency": 6
+  },
+  {
+    "symbol": "CI",
+    "name": "CIGNA Corp.",
+    "sector": "Health Care",
+    "subindustry": "Managed Health Care",
+    "address": "Philadelphia, Pennsylvania",
+    "date_added": "6/30/1976",
+    "CIK": 701221,
+    "frequency": 1
+  },
+  {
+    "symbol": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Restaurants",
+    "address": "Denver, Colorado",
+    "date_added": "4/28/2011",
+    "CIK": 1058090,
+    "frequency": 9
+  },
+  {
+    "symbol": "CNC",
+    "name": "Centene Corporation",
+    "sector": "Health Care",
+    "subindustry": "Managed Health Care",
+    "address": "St Louis, Missouri",
+    "date_added": "3/30/2016",
+    "CIK": 1071739,
+    "frequency": 7
+  },
+  {
+    "symbol": "CNP",
+    "name": "CenterPoint Energy",
+    "sector": "Utilities",
+    "subindustry": "MultiUtilities",
+    "address": "Houston, Texas",
+    "date_added": "7/31/1985",
+    "CIK": 1130310,
+    "frequency": 2
+  },
+  {
+    "symbol": "COF",
+    "name": "Capital One Financial",
+    "sector": "Financials",
+    "subindustry": "Consumer Finance",
+    "address": "Tysons Corner, Virginia",
+    "date_added": "",
+    "CIK": 927628,
+    "frequency": 2
+  },
+  {
+    "symbol": "CPB",
+    "name": "Campbell Soup",
+    "sector": "Consumer Staples",
+    "subindustry": "Packaged Foods & Meats",
+    "address": "Camden, New Jersey",
+    "date_added": "",
+    "CIK": 16732,
+    "frequency": 4
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce.com",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "San Francisco, California",
+    "date_added": "9/15/2008",
+    "CIK": 1108524,
+    "frequency": 19
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems",
+    "sector": "Information Technology",
+    "subindustry": "Networking Equipment",
+    "address": "San Jose, California",
+    "date_added": "12/1/1993",
+    "CIK": 858877,
+    "frequency": 22
+  },
+  {
+    "symbol": "CTAS",
+    "name": "Cintas Corporation",
+    "sector": "Industrials",
+    "subindustry": "Diversified Support Services",
+    "address": "Mason, Ohio",
+    "date_added": "",
+    "CIK": 723254,
+    "frequency": 4
+  },
+  {
+    "symbol": "CTL",
+    "name": "CenturyLink Inc",
+    "sector": "Telecommunications Services",
+    "subindustry": "Integrated Telecommunications Services",
+    "address": "Monroe, Louisiana",
+    "date_added": "",
+    "CIK": 18926,
+    "frequency": 1
+  },
+  {
+    "symbol": "CTXS",
+    "name": "Citrix Systems",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Fort Lauderdale, Florida",
+    "date_added": "",
+    "CIK": 877890,
+    "frequency": 7
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corp.",
+    "sector": "Energy",
+    "subindustry": "Integrated Oil & Gas",
+    "address": "San Ramon, California",
+    "date_added": "",
+    "CIK": 93410,
+    "frequency": 18
+  },
+  {
+    "symbol": "D",
+    "name": "Dominion Resources",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Richmond, Virginia",
+    "date_added": "",
+    "CIK": 715957,
+    "frequency": 9
+  },
+  {
+    "symbol": "DAL",
+    "name": "Delta Air Lines",
+    "sector": "Industrials",
+    "subindustry": "Airlines",
+    "address": "Atlanta, Georgia",
+    "date_added": "9/11/2013",
+    "CIK": 27904,
+    "frequency": 14
+  },
+  {
+    "symbol": "DG",
+    "name": "Dollar General",
+    "sector": "Consumer Discretionary",
+    "subindustry": "General Merchandise Stores",
+    "address": "Goodlettsville, Tennessee",
+    "date_added": "12/3/2012",
+    "CIK": 29534,
+    "frequency": 3
+  },
+  {
+    "symbol": "DIS",
+    "name": "The Walt Disney Company",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Broadcasting & Cable TV",
+    "address": "Burbank, California",
+    "date_added": "6/30/1976",
+    "CIK": 1001039,
+    "frequency": 15
+  },
+  {
+    "symbol": "DISCA",
+    "name": "Discovery Communications-A",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Cable & Satellite",
+    "address": "Silver Spring, Maryland",
+    "date_added": "3/1/2010",
+    "CIK": 1437107,
+    "frequency": 8
+  },
+  {
+    "symbol": "DISH",
+    "name": "Dish Network",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Cable & Satellite",
+    "address": "Meridian, Colorado",
+    "date_added": "3/13/2017",
+    "CIK": 1001082,
+    "frequency": 2
+  },
+  {
+    "symbol": "DPS",
+    "name": "Dr Pepper Snapple Group",
+    "sector": "Consumer Staples",
+    "subindustry": "Soft Drinks",
+    "address": "Plano, Texas",
+    "date_added": "10/7/2008",
+    "CIK": 1418135,
+    "frequency": 5
+  },
+  {
+    "symbol": "DRI",
+    "name": "Darden Restaurants",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Restaurants",
+    "address": "Orlando, Florida",
+    "date_added": "",
+    "CIK": 940944,
+    "frequency": 7
+  },
+  {
+    "symbol": "DUK",
+    "name": "Duke Energy",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Charlotte, North Carolina",
+    "date_added": "6/30/1976",
+    "CIK": 1326160,
+    "frequency": 3
+  },
+  {
+    "symbol": "DVN",
+    "name": "Devon Energy Corp.",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Exploration & Production",
+    "address": "Oklahoma City, Oklahoma",
+    "date_added": "",
+    "CIK": 1090012,
+    "frequency": 4
+  },
+  {
+    "symbol": "EA",
+    "name": "Electronic Arts",
+    "sector": "Information Technology",
+    "subindustry": "Home Entertainment Software",
+    "address": "Redwood City, California",
+    "date_added": "",
+    "CIK": 712515,
+    "frequency": 11
+  },
+  {
+    "symbol": "EBAY",
+    "name": "eBay Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "San Jose, California",
+    "date_added": "",
+    "CIK": 1065088,
+    "frequency": 18
+  },
+  {
+    "symbol": "ECL",
+    "name": "Ecolab Inc.",
+    "sector": "Materials",
+    "subindustry": "Specialty Chemicals",
+    "address": "St. Paul, Minnesota",
+    "date_added": "1/31/1989",
+    "CIK": 31462,
+    "frequency": 4
+  },
+  {
+    "symbol": "ED",
+    "name": "Consolidated Edison",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1047862,
+    "frequency": 8
+  },
+  {
+    "symbol": "EFX",
+    "name": "Equifax Inc.",
+    "sector": "Industrials",
+    "subindustry": "Research & Consulting Services",
+    "address": "Atlanta, Georgia",
+    "date_added": "",
+    "CIK": 33185,
+    "frequency": 4
+  },
+  {
+    "symbol": "EIX",
+    "name": "Edison Int'l",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Rosemead, California",
+    "date_added": "",
+    "CIK": 827052,
+    "frequency": 7
+  },
+  {
+    "symbol": "EMN",
+    "name": "Eastman Chemical",
+    "sector": "Materials",
+    "subindustry": "Diversified Chemicals",
+    "address": "Kingsport, Tennessee",
+    "date_added": "1/1/1994",
+    "CIK": 915389,
+    "frequency": 10
+  },
+  {
+    "symbol": "EMR",
+    "name": "Emerson Electric Company",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "Ferguson, Missouri",
+    "date_added": "3/31/1965",
+    "CIK": 32604,
+    "frequency": 2
+  },
+  {
+    "symbol": "EQIX",
+    "name": "Equinix",
+    "sector": "Real Estate",
+    "subindustry": "REITs",
+    "address": "Redwood City, California",
+    "date_added": "3/20/2015",
+    "CIK": 1101239,
+    "frequency": 5
+  },
+  {
+    "symbol": "ESRX",
+    "name": "Express Scripts",
+    "sector": "Health Care",
+    "subindustry": "Health Care Distributors",
+    "address": "Cool Valley, Missouri",
+    "date_added": "9/25/2003",
+    "CIK": 1532063,
+    "frequency": 1
+  },
+  {
+    "symbol": "ETFC",
+    "name": "E*Trade",
+    "sector": "Financials",
+    "subindustry": "Investment Banking & Brokerage",
+    "address": "New York, New York",
+    "date_added": "3/31/2004",
+    "CIK": 1015780,
+    "frequency": 9
+  },
+  {
+    "symbol": "ETN",
+    "name": "Eaton Corporation",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "Dublin, Ireland",
+    "date_added": "",
+    "CIK": 1551182,
+    "frequency": 1
+  },
+  {
+    "symbol": "ETR",
+    "name": "Entergy Corp.",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "New Orleans, Louisiana",
+    "date_added": "",
+    "CIK": 65984,
+    "frequency": 3
+  },
+  {
+    "symbol": "EXC",
+    "name": "Exelon Corp.",
+    "sector": "Utilities",
+    "subindustry": "MultiUtilities",
+    "address": "Chicago, Illinois",
+    "date_added": "",
+    "CIK": 1109357,
+    "frequency": 5
+  },
+  {
+    "symbol": "EXPE",
+    "name": "Expedia Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Internet & Direct Marketing Retail",
+    "address": "Bellevue, Washington",
+    "date_added": "10/2/2007",
+    "CIK": 1324424,
+    "frequency": 15
+  },
+  {
+    "symbol": "F",
+    "name": "Ford Motor",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Automobile Manufacturers",
+    "address": "Dearborn, Michigan",
+    "date_added": "",
+    "CIK": 37996,
+    "frequency": 22
+  },
+  {
+    "symbol": "FB",
+    "name": "Facebook",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Menlo Park, California",
+    "date_added": "12/23/2013",
+    "CIK": 1326801,
+    "frequency": 29
+  },
+  {
+    "symbol": "FCX",
+    "name": "Freeport-McMoran Cp & Gld",
+    "sector": "Materials",
+    "subindustry": "Copper",
+    "address": "Phoenix, Arizona",
+    "date_added": "",
+    "CIK": 831259,
+    "frequency": 4
+  },
+  {
+    "symbol": "FDX",
+    "name": "FedEx Corporation",
+    "sector": "Industrials",
+    "subindustry": "Air Freight & Logistics",
+    "address": "Memphis, Tennessee",
+    "date_added": "12/31/1980",
+    "CIK": 1048911,
+    "frequency": 13
+  },
+  {
+    "symbol": "FE",
+    "name": "FirstEnergy Corp",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Akron, Ohio",
+    "date_added": "",
+    "CIK": 1031296,
+    "frequency": 4
+  },
+  {
+    "symbol": "FFIV",
+    "name": "F5 Networks",
+    "sector": "Information Technology",
+    "subindustry": "Networking Equipment",
+    "address": "Seattle, Washington",
+    "date_added": "12/20/2010",
+    "CIK": 1048695,
+    "frequency": 5
+  },
+  {
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Jacksonville, Florida",
+    "date_added": "",
+    "CIK": 1136893,
+    "frequency": 9
+  },
+  {
+    "symbol": "FITB",
+    "name": "Fifth Third Bancorp",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "Cincinnati, Ohio",
+    "date_added": "",
+    "CIK": 35527,
+    "frequency": 5
+  },
+  {
+    "symbol": "FL",
+    "name": "Foot Locker Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel Retail",
+    "address": "New York, New York",
+    "date_added": "4/4/2016",
+    "CIK": 850209,
+    "frequency": 6
+  },
+  {
+    "symbol": "GD",
+    "name": "General Dynamics",
+    "sector": "Industrials",
+    "subindustry": "Aerospace & Defense",
+    "address": "Falls Church, Virginia",
+    "date_added": "",
+    "CIK": 40533,
+    "frequency": 5
+  },
+  {
+    "symbol": "GE",
+    "name": "General Electric",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "Fairfield, Connecticut",
+    "date_added": "",
+    "CIK": 40545,
+    "frequency": 27
+  },
+  {
+    "symbol": "GIS",
+    "name": "General Mills",
+    "sector": "Consumer Staples",
+    "subindustry": "Packaged Foods & Meats",
+    "address": "Golden Valley, Minnesota",
+    "date_added": "3/31/1969",
+    "CIK": 40704,
+    "frequency": 18
+  },
+  {
+    "symbol": "GM",
+    "name": "General Motors",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Automobile Manufacturers",
+    "address": "Detroit, Michigan",
+    "date_added": "6/6/2013",
+    "CIK": 1467858,
+    "frequency": 19
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Mountain View, California",
+    "date_added": "",
+    "CIK": 1652044,
+    "frequency": 14
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Mountain View, California",
+    "date_added": "4/3/2014",
+    "CIK": 1652044,
+    "frequency": 40
+  },
+  {
+    "symbol": "GPS",
+    "name": "Gap (The)",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel Retail",
+    "address": "San Francisco, California",
+    "date_added": "8/31/1986",
+    "CIK": 39911,
+    "frequency": 8
+  },
+  {
+    "symbol": "GRMN",
+    "name": "Garmin Ltd.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Consumer Electronics",
+    "address": "Schaffhausen, Switzerland",
+    "date_added": "12/12/2012",
+    "CIK": 1121788,
+    "frequency": 5
+  },
+  {
+    "symbol": "GS",
+    "name": "Goldman Sachs Group",
+    "sector": "Financials",
+    "subindustry": "Investment Banking & Brokerage",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 886982,
+    "frequency": 21
+  },
+  {
+    "symbol": "GT",
+    "name": "Goodyear Tire & Rubber",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Tires & Rubber",
+    "address": "Akron, Ohio",
+    "date_added": "",
+    "CIK": 42582,
+    "frequency": 3
+  },
+  {
+    "symbol": "HAL",
+    "name": "Halliburton Co.",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Equipment & Services",
+    "address": "Houston, Texas",
+    "date_added": "",
+    "CIK": 45012,
+    "frequency": 11
+  },
+  {
+    "symbol": "HD",
+    "name": "Home Depot",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Home Improvement Retail",
+    "address": "Atlanta, Georgia",
+    "date_added": "3/31/1988",
+    "CIK": 354950,
+    "frequency": 14
+  },
+  {
+    "symbol": "HES",
+    "name": "Hess Corporation",
+    "sector": "Energy",
+    "subindustry": "Integrated Oil & Gas",
+    "address": "New York, New York",
+    "date_added": "5/31/1984",
+    "CIK": 4447,
+    "frequency": 1
+  },
+  {
+    "symbol": "HOG",
+    "name": "Harley-Davidson",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Motorcycle Manufacturers",
+    "address": "Milwaukee, Wisconsin",
+    "date_added": "",
+    "CIK": 793952,
+    "frequency": 9
+  },
+  {
+    "symbol": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "sector": "Information Technology",
+    "subindustry": "Technology Hardware, Storage & Peripherals",
+    "address": "Palo Alto, California",
+    "date_added": "11/2/2015",
+    "CIK": 1645590,
+    "frequency": 6
+  },
+  {
+    "symbol": "HPQ",
+    "name": "HP Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Computer Hardware",
+    "address": "Palo Alto, California",
+    "date_added": "12/31/1974",
+    "CIK": 47217,
+    "frequency": 7
+  },
+  {
+    "symbol": "HSY",
+    "name": "The Hershey Company",
+    "sector": "Consumer Staples",
+    "subindustry": "Packaged Foods & Meats",
+    "address": "Hershey, Pennsylvania",
+    "date_added": "",
+    "CIK": 47111,
+    "frequency": 1
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines",
+    "sector": "Information Technology",
+    "subindustry": "IT Consulting & Other Services",
+    "address": "Armonk, New York",
+    "date_added": "",
+    "CIK": 51143,
+    "frequency": 14
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp.",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "Santa Clara, California",
+    "date_added": "12/31/1976",
+    "CIK": 50863,
+    "frequency": 23
+  },
+  {
+    "symbol": "INTU",
+    "name": "Intuit Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Mountain View, California",
+    "date_added": "12/5/2000",
+    "CIK": 896878,
+    "frequency": 10
+  },
+  {
+    "symbol": "IP",
+    "name": "International Paper",
+    "sector": "Materials",
+    "subindustry": "Paper Packaging",
+    "address": "Memphis, Tennessee",
+    "date_added": "",
+    "CIK": 51434,
+    "frequency": 5
+  },
+  {
+    "symbol": "IQV",
+    "name": "IQVIA�Holdings Inc.",
+    "sector": "Health Care",
+    "subindustry": "Life Sciences Tools & Service",
+    "address": "Durham, North Carolina",
+    "date_added": "8/29/2017",
+    "CIK": 1478242,
+    "frequency": 2
+  },
+  {
+    "symbol": "IT",
+    "name": "Gartner Inc",
+    "sector": "Information Technology",
+    "subindustry": "IT Consulting & Other Services",
+    "address": "Stamford, Connecticut",
+    "date_added": "4/5/2017",
+    "CIK": 749251,
+    "frequency": 3
+  },
+  {
+    "symbol": "JCI",
+    "name": "Johnson Controls International",
+    "sector": "Industrials",
+    "subindustry": "Building Products",
+    "address": "Cork, Ireland",
+    "date_added": "8/27/2010",
+    "CIK": 833444,
+    "frequency": 7
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "Health Care",
+    "subindustry": "Health Care Equipment",
+    "address": "New Brunswick, New Jersey",
+    "date_added": "6/30/1973",
+    "CIK": 200406,
+    "frequency": 2
+  },
+  {
+    "symbol": "JNPR",
+    "name": "Juniper Networks",
+    "sector": "Information Technology",
+    "subindustry": "Networking Equipment",
+    "address": "Sunnyvale, California",
+    "date_added": "",
+    "CIK": 1043604,
+    "frequency": 5
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "New York, New York",
+    "date_added": "6/30/1975",
+    "CIK": 19617,
+    "frequency": 8
+  },
+  {
+    "symbol": "K",
+    "name": "Kellogg Co.",
+    "sector": "Consumer Staples",
+    "subindustry": "Packaged Foods & Meats",
+    "address": "Battle Creek, Michigan",
+    "date_added": "",
+    "CIK": 55067,
+    "frequency": 9
+  },
+  {
+    "symbol": "KHC",
+    "name": "Kraft Heinz Co",
+    "sector": "Consumer Staples",
+    "subindustry": "Packaged Foods & Meats",
+    "address": "Pittsburgh, Pennsylvania",
+    "date_added": "7/6/2015",
+    "CIK": 1545158,
+    "frequency": 2
+  },
+  {
+    "symbol": "KMB",
+    "name": "Kimberly-Clark",
+    "sector": "Consumer Staples",
+    "subindustry": "Household Products",
+    "address": "Irving, Texas",
+    "date_added": "",
+    "CIK": 55785,
+    "frequency": 4
+  },
+  {
+    "symbol": "KMX",
+    "name": "Carmax Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Specialty Stores",
+    "address": "Richmond, Virginia",
+    "date_added": "6/28/2010",
+    "CIK": 1170010,
+    "frequency": 9
+  },
+  {
+    "symbol": "L",
+    "name": "Loews Corp.",
+    "sector": "Financials",
+    "subindustry": "Multi-Sector Holdings",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 60086,
+    "frequency": 4
+  },
+  {
+    "symbol": "LMT",
+    "name": "Lockheed Martin Corp.",
+    "sector": "Industrials",
+    "subindustry": "Aerospace & Defense",
+    "address": "Bethesda, Maryland",
+    "date_added": "7/31/1984",
+    "CIK": 936468,
+    "frequency": 4
+  },
+  {
+    "symbol": "LNC",
+    "name": "Lincoln National",
+    "sector": "Financials",
+    "subindustry": "Multi-line Insurance",
+    "address": "Radnor, Pennsylvania",
+    "date_added": "6/30/1976",
+    "CIK": 59558,
+    "frequency": 1
+  },
+  {
+    "symbol": "LOW",
+    "name": "Lowe's Cos.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Home Improvement Retail",
+    "address": "Mooresville, North Carolina",
+    "date_added": "2/29/1984",
+    "CIK": 60667,
+    "frequency": 2
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Harrison, New York",
+    "date_added": "7/18/2008",
+    "CIK": 1141391,
+    "frequency": 6
+  },
+  {
+    "symbol": "MAR",
+    "name": "Marriott Int'l.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Hotels, Resorts & Cruise Lines",
+    "address": "Bethesda, Maryland",
+    "date_added": "",
+    "CIK": 1048286,
+    "frequency": 1
+  },
+  {
+    "symbol": "MAT",
+    "name": "Mattel Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Leisure Products",
+    "address": "El Segundo, California",
+    "date_added": "3/31/1982",
+    "CIK": 63276,
+    "frequency": 1
+  },
+  {
+    "symbol": "MCD",
+    "name": "McDonald's Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Restaurants",
+    "address": "Oak Brook, Illinois",
+    "date_added": "6/30/1970",
+    "CIK": 63908,
+    "frequency": 9
+  },
+  {
+    "symbol": "MET",
+    "name": "MetLife Inc.",
+    "sector": "Financials",
+    "subindustry": "Life & Health Insurance",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1099219,
+    "frequency": 3
+  },
+  {
+    "symbol": "MMM",
+    "name": "3M Company",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "St. Paul, Minnesota",
+    "date_added": "",
+    "CIK": 66740,
+    "frequency": 8
+  },
+  {
+    "symbol": "MO",
+    "name": "Altria Group Inc",
+    "sector": "Consumer Staples",
+    "subindustry": "Tobacco",
+    "address": "Richmond, Virginia",
+    "date_added": "",
+    "CIK": 764180,
+    "frequency": 6
+  },
+  {
+    "symbol": "MON",
+    "name": "Monsanto Co.",
+    "sector": "Materials",
+    "subindustry": "Fertilizers & Agricultural Chemicals",
+    "address": "Creve Coeur, Missouri",
+    "date_added": "8/7/2002",
+    "CIK": 1110783,
+    "frequency": 7
+  },
+  {
+    "symbol": "MS",
+    "name": "Morgan Stanley",
+    "sector": "Financials",
+    "subindustry": "Investment Banking & Brokerage",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 895421,
+    "frequency": 13
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp.",
+    "sector": "Information Technology",
+    "subindustry": "Systems Software",
+    "address": "Redmond, Washington",
+    "date_added": "6/1/1994",
+    "CIK": 789019,
+    "frequency": 24
+  },
+  {
+    "symbol": "MU",
+    "name": "Micron Technology",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "Boise, Idaho",
+    "date_added": "9/27/1994",
+    "CIK": 723125,
+    "frequency": 3
+  },
+  {
+    "symbol": "NDAQ",
+    "name": "NASDAQ OMX Group",
+    "sector": "Financials",
+    "subindustry": "Diversified Financial Services",
+    "address": "New York, New York",
+    "date_added": "10/22/2008",
+    "CIK": 1120193,
+    "frequency": 17
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Los Gatos, California",
+    "date_added": "12/20/2010",
+    "CIK": 1065280,
+    "frequency": 37
+  },
+  {
+    "symbol": "NKE",
+    "name": "Nike",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel, Accessories & Luxury Goods",
+    "address": "Washington County, Oregon",
+    "date_added": "11/30/1988",
+    "CIK": 320187,
+    "frequency": 18
+  },
+  {
+    "symbol": "NSC",
+    "name": "Norfolk Southern Corp.",
+    "sector": "Industrials",
+    "subindustry": "Railroads",
+    "address": "Norfolk, Virginia",
+    "date_added": "",
+    "CIK": 702165,
+    "frequency": 6
+  },
+  {
+    "symbol": "NTAP",
+    "name": "NetApp",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "Sunnyvale, California",
+    "date_added": "",
+    "CIK": 1002047,
+    "frequency": 4
+  },
+  {
+    "symbol": "NVDA",
+    "name": "Nvidia Corporation",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "Santa Clara, California",
+    "date_added": "",
+    "CIK": 1045810,
+    "frequency": 7
+  },
+  {
+    "symbol": "NWL",
+    "name": "Newell Brands",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Housewares & Specialties",
+    "address": "Sandy Springs, Georgia",
+    "date_added": "4/30/1989",
+    "CIK": 814453,
+    "frequency": 2
+  },
+  {
+    "symbol": "ORCL",
+    "name": "Oracle Corp.",
+    "sector": "Information Technology",
+    "subindustry": "Application Software",
+    "address": "Redwood Shores, California",
+    "date_added": "8/31/1989",
+    "CIK": 1341439,
+    "frequency": 9
+  },
+  {
+    "symbol": "ORLY",
+    "name": "O'Reilly Automotive",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Specialty Stores",
+    "address": "Springfield, Missouri",
+    "date_added": "3/27/2009",
+    "CIK": 898173,
+    "frequency": 3
+  },
+  {
+    "symbol": "PCLN",
+    "name": "Priceline.com Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Internet & Direct Marketing Retail",
+    "address": "Norwalk, Connecticut",
+    "date_added": "11/6/2009",
+    "CIK": 1075531,
+    "frequency": 3
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc.",
+    "sector": "Consumer Staples",
+    "subindustry": "Soft Drinks",
+    "address": "Purchase, New York",
+    "date_added": "",
+    "CIK": 77476,
+    "frequency": 12
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc.",
+    "sector": "Health Care",
+    "subindustry": "Pharmaceuticals",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 78003,
+    "frequency": 1
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble",
+    "sector": "Consumer Staples",
+    "subindustry": "Personal Products",
+    "address": "Cincinnati, Ohio",
+    "date_added": "",
+    "CIK": 80424,
+    "frequency": 3
+  },
+  {
+    "symbol": "PGR",
+    "name": "Progressive Corp.",
+    "sector": "Financials",
+    "subindustry": "Property & Casualty Insurance",
+    "address": "Mayfield Village, Ohio",
+    "date_added": "",
+    "CIK": 80661,
+    "frequency": 10
+  },
+  {
+    "symbol": "PKI",
+    "name": "PerkinElmer",
+    "sector": "Health Care",
+    "subindustry": "Health Care Equipment",
+    "address": "Waltham, Massachusetts",
+    "date_added": "5/31/1985",
+    "CIK": 31791,
+    "frequency": 3
+  },
+  {
+    "symbol": "PM",
+    "name": "Philip Morris International",
+    "sector": "Consumer Staples",
+    "subindustry": "Tobacco",
+    "address": "New York, New York",
+    "date_added": "3/31/2008",
+    "CIK": 1413329,
+    "frequency": 8
+  },
+  {
+    "symbol": "PPL",
+    "name": "PPL Corp.",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Allentown, Pennsylvania",
+    "date_added": "",
+    "CIK": 922224,
+    "frequency": 4
+  },
+  {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Refining & Marketing & Transportation",
+    "address": "Houston, Texas",
+    "date_added": "5/1/2012",
+    "CIK": 1534701,
+    "frequency": 15
+  },
+  {
+    "symbol": "PYPL",
+    "name": "PayPal",
+    "sector": "Information Technology",
+    "subindustry": "Data Processing & Outsourced Services",
+    "address": "San Jose, California",
+    "date_added": "7/20/2015",
+    "CIK": 1633917,
+    "frequency": 6
+  },
+  {
+    "symbol": "QCOM",
+    "name": "QUALCOMM Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "San Diego, California",
+    "date_added": "",
+    "CIK": 804328,
+    "frequency": 6
+  },
+  {
+    "symbol": "RHT",
+    "name": "Red Hat Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Systems Software",
+    "address": "Raleigh, North Carolina",
+    "date_added": "7/27/2009",
+    "CIK": 1087423,
+    "frequency": 7
+  },
+  {
+    "symbol": "ROK",
+    "name": "Rockwell Automation Inc.",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "Milwaukee, Wisconsin",
+    "date_added": "",
+    "CIK": 1024478,
+    "frequency": 9
+  },
+  {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Restaurants",
+    "address": "Seattle, Washington",
+    "date_added": "",
+    "CIK": 829224,
+    "frequency": 8
+  },
+  {
+    "symbol": "SHW",
+    "name": "Sherwin-Williams",
+    "sector": "Materials",
+    "subindustry": "Specialty Chemicals",
+    "address": "Cleveland, Ohio",
+    "date_added": "6/30/1964",
+    "CIK": 89800,
+    "frequency": 1
+  },
+  {
+    "symbol": "SLB",
+    "name": "Schlumberger Ltd.",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Equipment & Services",
+    "address": "Cura̤ao, Kingdom of the Netherlands",
+    "date_added": "3/31/1965",
+    "CIK": 87347,
+    "frequency": 6
+  },
+  {
+    "symbol": "SNA",
+    "name": "Snap-On Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Household Appliances",
+    "address": "Kenosha, Wisconsin",
+    "date_added": "9/30/1982",
+    "CIK": 91440,
+    "frequency": 8
+  },
+  {
+    "symbol": "SO",
+    "name": "Southern Co.",
+    "sector": "Utilities",
+    "subindustry": "Electric Utilities",
+    "address": "Atlanta, Georgia",
+    "date_added": "",
+    "CIK": 92122,
+    "frequency": 7
+  },
+  {
+    "symbol": "STI",
+    "name": "SunTrust Banks",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "Atlanta, Georgia",
+    "date_added": "5/31/1988",
+    "CIK": 750556,
+    "frequency": 3
+  },
+  {
+    "symbol": "STT",
+    "name": "State Street Corp.",
+    "sector": "Financials",
+    "subindustry": "Diversified Financial Services",
+    "address": "Boston, Massachusetts",
+    "date_added": "",
+    "CIK": 93751,
+    "frequency": 8
+  },
+  {
+    "symbol": "STX",
+    "name": "Seagate Technology",
+    "sector": "Information Technology",
+    "subindustry": "Computer Storage & Peripherals",
+    "address": "Dublin, Ireland",
+    "date_added": "7/2/2012",
+    "CIK": 1137789,
+    "frequency": 3
+  },
+  {
+    "symbol": "SYMC",
+    "name": "Symantec Corp.",
+    "sector": "Information Technology",
+    "subindustry": "Application Software",
+    "address": "Mountain View, California",
+    "date_added": "3/25/2003",
+    "CIK": 849399,
+    "frequency": 2
+  },
+  {
+    "symbol": "SYY",
+    "name": "Sysco Corp.",
+    "sector": "Consumer Staples",
+    "subindustry": "Food Distributors",
+    "address": "Houston, Texas",
+    "date_added": "12/31/1986",
+    "CIK": 96021,
+    "frequency": 8
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc",
+    "sector": "Telecommunications Services",
+    "subindustry": "Integrated Telecommunications Services",
+    "address": "Dallas, Texas",
+    "date_added": "11/30/1983",
+    "CIK": 732717,
+    "frequency": 23
+  },
+  {
+    "symbol": "TAP",
+    "name": "Molson Coors Brewing Company",
+    "sector": "Consumer Staples",
+    "subindustry": "Brewers",
+    "address": "Denver, Colorado",
+    "date_added": "6/30/1976",
+    "CIK": 24545,
+    "frequency": 5
+  },
+  {
+    "symbol": "TGT",
+    "name": "Target Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "General Merchandise Stores",
+    "address": "Minneapolis, Minnesota",
+    "date_added": "12/31/1976",
+    "CIK": 27419,
+    "frequency": 1
+  },
+  {
+    "symbol": "TIF",
+    "name": "Tiffany & Co.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel, Accessories & Luxury Goods",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 98246,
+    "frequency": 4
+  },
+  {
+    "symbol": "TPR",
+    "name": "Tapestry Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel, Accessories & Luxury Goods",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1116132,
+    "frequency": 9
+  },
+  {
+    "symbol": "TRIP",
+    "name": "TripAdvisor",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Internet & Direct Marketing Retail",
+    "address": "Newton, Massachusetts",
+    "date_added": "12/21/2011",
+    "CIK": 1526520,
+    "frequency": 9
+  },
+  {
+    "symbol": "TWX",
+    "name": "Time Warner Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Broadcasting & Cable TV",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1105705,
+    "frequency": 22
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments",
+    "sector": "Information Technology",
+    "subindustry": "Semiconductors",
+    "address": "Dallas, Texas",
+    "date_added": "",
+    "CIK": 97476,
+    "frequency": 10
+  },
+  {
+    "symbol": "UA",
+    "name": "Under Armour",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Apparel, Accessories & Luxury Goods",
+    "address": "Baltimore, Maryland",
+    "date_added": "5/1/2014",
+    "CIK": 1336917,
+    "frequency": 9
+  },
+  {
+    "symbol": "UNP",
+    "name": "Union Pacific",
+    "sector": "Industrials",
+    "subindustry": "Railroads",
+    "address": "Omaha, Nebraska",
+    "date_added": "",
+    "CIK": 100885,
+    "frequency": 8
+  },
+  {
+    "symbol": "USB",
+    "name": "U.S. Bancorp",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "Minneapolis, Minnesota",
+    "date_added": "",
+    "CIK": 36104,
+    "frequency": 1
+  },
+  {
+    "symbol": "UTX",
+    "name": "United Technologies",
+    "sector": "Industrials",
+    "subindustry": "Industrial Conglomerates",
+    "address": "Hartford, Connecticut",
+    "date_added": "",
+    "CIK": 101829,
+    "frequency": 7
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "sector": "Information Technology",
+    "subindustry": "Internet Software & Services",
+    "address": "San Francisco, California",
+    "date_added": "12/21/2009",
+    "CIK": 1403161,
+    "frequency": 24
+  },
+  {
+    "symbol": "VIAB",
+    "name": "Viacom Inc.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Broadcasting & Cable TV",
+    "address": "New York, New York",
+    "date_added": "",
+    "CIK": 1339947,
+    "frequency": 6
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon Communications",
+    "sector": "Telecommunications Services",
+    "subindustry": "Integrated Telecommunications Services",
+    "address": "New York, New York",
+    "date_added": "11/30/1983",
+    "CIK": 732712,
+    "frequency": 20
+  },
+  {
+    "symbol": "WBA",
+    "name": "Walgreens Boots Alliance",
+    "sector": "Consumer Staples",
+    "subindustry": "Drug Retail",
+    "address": "Deerfield, Illinois",
+    "date_added": "12/31/1979",
+    "CIK": 1618921,
+    "frequency": 6
+  },
+  {
+    "symbol": "WDC",
+    "name": "Western Digital",
+    "sector": "Information Technology",
+    "subindustry": "Computer Storage & Peripherals",
+    "address": "Irvine, California",
+    "date_added": "7/1/2009",
+    "CIK": 106040,
+    "frequency": 11
+  },
+  {
+    "symbol": "WFC",
+    "name": "Wells Fargo",
+    "sector": "Financials",
+    "subindustry": "Banks",
+    "address": "San Francisco, California",
+    "date_added": "6/30/1976",
+    "CIK": 72971,
+    "frequency": 22
+  },
+  {
+    "symbol": "WHR",
+    "name": "Whirlpool Corp.",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Household Appliances",
+    "address": "Benton Harbor, Michigan",
+    "date_added": "",
+    "CIK": 106640,
+    "frequency": 6
+  },
+  {
+    "symbol": "WM",
+    "name": "Waste Management Inc.",
+    "sector": "Industrials",
+    "subindustry": "Environmental Services",
+    "address": "Houston, Texas",
+    "date_added": "",
+    "CIK": 823768,
+    "frequency": 7
+  },
+  {
+    "symbol": "WMB",
+    "name": "Williams Cos.",
+    "sector": "Energy",
+    "subindustry": "Oil & Gas Exploration & Production",
+    "address": "Tulsa, Oklahoma",
+    "date_added": "3/31/1975",
+    "CIK": 107263,
+    "frequency": 8
+  },
+  {
+    "symbol": "WMT",
+    "name": "Wal-Mart Stores",
+    "sector": "Consumer Staples",
+    "subindustry": "Hypermarkets & Super Centers",
+    "address": "Bentonville, Arkansas",
+    "date_added": "8/31/1982",
+    "CIK": 104169,
+    "frequency": 21
+  },
+  {
+    "symbol": "WY",
+    "name": "Weyerhaeuser Corp.",
+    "sector": "Real Estate",
+    "subindustry": "REITs",
+    "address": "Federal Way, Washington",
+    "date_added": "",
+    "CIK": 106535,
+    "frequency": 7
+  },
+  {
+    "symbol": "WYN",
+    "name": "Wyndham Worldwide",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Hotels, Resorts & Cruise Lines",
+    "address": "Parsippany, New Jersey",
+    "date_added": "",
+    "CIK": 1361658,
+    "frequency": 10
+  },
+  {
+    "symbol": "WYNN",
+    "name": "Wynn Resorts Ltd",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Casinos & Gaming",
+    "address": "Las Vegas, Nevada",
+    "date_added": "11/14/2008",
+    "CIK": 1174922,
+    "frequency": 3
+  },
+  {
+    "symbol": "XEL",
+    "name": "Xcel Energy Inc",
+    "sector": "Utilities",
+    "subindustry": "MultiUtilities",
+    "address": "Minneapolis, Minnesota",
+    "date_added": "",
+    "CIK": 72903,
+    "frequency": 8
+  },
+  {
+    "symbol": "XL",
+    "name": "XL Capital",
+    "sector": "Financials",
+    "subindustry": "Property & Casualty Insurance",
+    "address": "Hamilton, Bermuda",
+    "date_added": "",
+    "CIK": 875159,
+    "frequency": 8
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corp.",
+    "sector": "Energy",
+    "subindustry": "Integrated Oil & Gas",
+    "address": "Irving, Texas",
+    "date_added": "",
+    "CIK": 34088,
+    "frequency": 19
+  },
+  {
+    "symbol": "XRAY",
+    "name": "Dentsply Sirona",
+    "sector": "Health Care",
+    "subindustry": "Health Care Supplies",
+    "address": "York, Pennsylvania",
+    "date_added": "11/14/2008",
+    "CIK": 818479,
+    "frequency": 3
+  },
+  {
+    "symbol": "YUM",
+    "name": "Yum! Brands Inc",
+    "sector": "Consumer Discretionary",
+    "subindustry": "Restaurants",
+    "address": "Louisville, Kentucky",
+    "date_added": "10/6/1997",
+    "CIK": 1041061,
+    "frequency": 8
+  },
+  {
+    "symbol": "ZION",
+    "name": "Zions Bancorp",
+    "sector": "Financials",
+    "subindustry": "Regional Banks",
+    "address": "Salt Lake City, Utah",
+    "date_added": "",
+    "CIK": 109380,
+    "frequency": 9
+  }
+]

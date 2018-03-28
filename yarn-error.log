@@ -1,0 +1,76 @@
+Arguments: 
+  /home/ubuntu/.nvm/versions/node/v6.11.2/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/ubuntu/.nvm/versions/node/v6.11.2/bin:/usr/local/rvm/gems/ruby-2.4.0/bin:/usr/local/rvm/gems/ruby-2.4.0@global/bin:/usr/local/rvm/rubies/ruby-2.4.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.11.2
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  /*{
+    "name": "workspace",
+    "version": "1.0.0",
+    "description": "Second assignment for COMP4513",
+    "main": "users.js",
+    "dependencies": {
+      "crypto": "^1.0.1",
+      "crypto-md5": "^1.0.0",
+      "express": "^4.16.3",
+      "md5": "^2.2.1",
+      "mongoose": "^5.0.10"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rconnolly/comp4513-w2018-assign2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rconnolly/comp4513-w2018-assign2/issues"
+    },
+    "homepage": "https://github.com/rconnolly/comp4513-w2018-assign2#readme"
+  }
+  */
+  
+  {
+    "name": "example-create-react-app-express",
+    "version": "1.0.0",
+    "main": "App.js"
+    "scripts": {
+      "client": "cd client && yarn start",
+      "server": "nodemon server.js",
+      "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+      "crypto": "^1.0.1",
+      "crypto-md5": "^1.0.0",
+      "express": "^4.16.3",
+      "md5": "^2.2.1",
+      "mongoose": "^5.0.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/ubuntu/workspace/package.json: Unexpected token / in JSON at position 0
+      at Object.parse (native)
+      at /usr/share/yarn/lib/cli.js:1036:59
+      at next (native)
+      at step (/usr/share/yarn/lib/cli.js:98:30)
+      at /usr/share/yarn/lib/cli.js:109:13
