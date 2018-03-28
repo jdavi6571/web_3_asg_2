@@ -27,11 +27,6 @@ var Company = mongoose.model('Company', companiesSchema);
 
 var app = express();
 
-app.route('/test')
-    .get(function(req,res){
-        res.send("Test Worked");
-    });
-
 // tell node to use json and HTTP header features in body-parser
 app.use(parser.json());
 app.use(parser.urlencoded({extended: true}));
@@ -61,10 +56,6 @@ app.route('/companies/stocks/:symbol')
         });
     });
 
-app.route('/test2')
-    .get(function(req,res){
-        res.send("Test 2 Worked");
-    });
 
 
 
