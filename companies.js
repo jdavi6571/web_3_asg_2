@@ -46,7 +46,6 @@ app.route('/companies/stocks/:symbol')
                           resp.json({ message: 'Unable to connect to users' });
                      }
                      else {
-                  console.log("ok");
                   resp.json(data);
   
                      }
@@ -57,7 +56,21 @@ app.route('/companies/stocks/:symbol')
     });
 
 
-
+app.route('/companies/all')
+    .get(function (req, resp) {
+        
+        Company.find({}, {symbol: 1, name: 1},function(err, data) {
+            {
+                if(err){
+                    resp.json({ message: 'Unable to connect to users' });
+                    
+                }
+                else {
+                    resp.json(data);
+                }
+            }
+        });
+    });
 
 
 // Use express to listen to port
