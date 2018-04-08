@@ -3,12 +3,7 @@ var md5 = require('md5');
 var mongoose = require('mongoose');
 var express = require('express');
 var parser = require('body-parser');
-/*
-var usersRouter = require('users.js');
-var companiesRouter = require('companies.js');
-var portfolioRouter = require('portfolio.js');
-var pricesRouter = require('prices.js');
-*/
+
 mongoose.connect('mongodb://test_user:password@ds014118.mlab.com:14118/web_3_asg_2_mdb');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connections error'));
@@ -63,6 +58,11 @@ var usersSchema = new mongoose.Schema({
 });
 
 var User = mongoose.model('User', usersSchema);
+
+var app = express();
+
+app.use(parser.json());
+app.use(parser.urlencoded({extended: true}));
 
 app.route('/companies/stocks/:symbol')
     .get(function (req, resp) {
@@ -284,10 +284,7 @@ app.route('/portfolio/user/percentage/:user')
 
 
 
-var app = express();
 
-app.use(parser.json());
-app.use(parser.urlencoded({extended: true}));
 /*
 usersRouter.defineRouting(app);
 companiesRouter.defineRouting(app);
