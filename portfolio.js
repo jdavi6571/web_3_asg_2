@@ -11,14 +11,14 @@ db.once('open', function callback() {
     console.log("connected to mongo");
 });
 
-var portfolioSchema = new mongoose.Schema({
+var portfoliosSchema = new mongoose.Schema({
     id: Number,
     symbol: String,
     user: Number,
     owned: Number
 });
 
-var Portfolio = mongoose.model('Portfolio', portfolioSchema);
+var Portfolio = mongoose.model('Portfolio', portfoliosSchema);
 
 var app = express();
 
@@ -39,25 +39,38 @@ app.route('/portfolio/user/:user')
             resp.json(data);
         }
     });
- });
-  
+});
+ 
+
 app.route('/portfolio/user/percentage/:user')
-    .get(function (req,resp) {
-           Portfolio.aggregate([ 
-              { $match: { user: req.params.user } } ,
-              { $group: {
-                    _id: { "symbol" : "$symbol"},
-                    sumOwned: { $sum: "$owned" }
-                }
-              },
-              { $project: { "sumOwned":1, "percentage": { "$multiply": [{"$divide": [100,"$sumOwned"]}]}}
-                }],
+  .get(function (req, resp) {
+        let l_userID = parseInt(req.params.user);
+        Portfolio.aggregate([ 
+
+            { $group: { 
+                _id: "$user", 
+                totalOwned: { $sum: "$owned" } 
+                      } 
+            },
+            { $group: {
+                _id: "$symbol",
+                totalPercent: { $divide: [ "$owned", "totalOwned" ] }
+                     }   
+            },
+            { $match: {_id: l_userID} 
+            },
+            { $project: {
+                "_id":1, "totalPercent": 1
+            }
+            }
+            ], 
     function(err,data){
         if(err){
             resp.json({ message: 'Unable to connect to users' });
         }
         else
         {
+            console.log(req.params.user);
             resp.json(data);
         }
     });

@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var express = require('express');
 var parser = require('body-parser');
 
-mongoose.connect('mongodb://localhost:27017/funwebdev');
+mongoose.connect('mongodb://test_user:password@ds014118.mlab.com:14118/web_3_asg_2_mdb');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connections error'));
 db.once('open', function callback() {
@@ -42,7 +42,6 @@ app.route('/users/:email/:password')
                      }
                      else {
                         
-                     
     
                       
                     var saltedHash = crypto.createHash('md5').update(req.params.password + data[0].salt).digest('hex');
@@ -71,9 +70,6 @@ app.route('/users/:email/:password')
                             });
                }
     });
-
-
-
 
 
 

@@ -1,4 +1,4 @@
-var crypto = require('crypto');
+/*var crypto = require('crypto');
 var md5 = require('md5');
 var mongoose = require('mongoose');
 var express = require('express');
@@ -31,8 +31,9 @@ var app = express();
 app.use(parser.json());
 app.use(parser.urlencoded({extended: true}));
 
-
-
+*/
+module.exports = {
+     defineRouting: function(app) {
 app.route('/companies/stocks/:symbol')
     .get(function (req, resp) {
         
@@ -71,10 +72,11 @@ app.route('/companies/all')
             }
         });
     });
-
-
+}
+};
+/*
 // Use express to listen to port
 var port = process.env.PORT || 8080;
 app.listen(port, function () {
  console.log("Server running at port = " + port);
-});
+});*/
