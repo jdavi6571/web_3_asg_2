@@ -138,7 +138,7 @@ app.route('/users/:email/:password')
         }
         else {
             resp.send({ 
-                "code": 204,
+                "code": 203,
                 "success": "Unable to find user"
             });
         }
