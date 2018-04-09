@@ -52,7 +52,7 @@ app.route('/users/:email/:password')
   
                      }
                     }
-         
+                    
                     
         });
              
@@ -65,7 +65,7 @@ app.route('/users/:email/:password')
                             }
                             else {
                                 resp.json(data);
-                                console.log(data);
+                                console.log("data: " + data);
                             }
                             });
                }

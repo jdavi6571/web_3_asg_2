@@ -248,48 +248,38 @@ app.route('/portfolio/user/:user')
 });
  
 
-app.route('/portfolio/user/percentage/:user')
-  .get(function (req, resp) {
-        let l_userID = parseInt(req.params.user);
-        Portfolio.aggregate([ 
+app.get('/portfolio/percentage/:user', function (req,resp)
+  {
+  var parsedUser = parseInt(req.params.user);
+      
+    // use mongoose to retrieve all books from Mongo
+  Portfolio.aggregate([
+      { $match: {user: parsedUser} }, 
+      { $group: { _id:"$symbol", total:{$sum: "$owned"}} }]
+      ).exec( function(err, data) {
+  if (err) {
+  resp.json({ message: 'Unable to connect to portfolios' });
 
-            { $group: { 
-                _id: "$user", 
-                totalOwned: { $sum: "$owned" } 
-                      } 
-            },
-            { $group: {
-                _id: "$symbol",
-                totalPercent: { $divide: [ "$owned", "totalOwned" ] }
-                     }   
-            },
-            { $match: {_id: l_userID} 
-            },
-            { $project: {
-                "_id":1, "totalPercent": 1
-            }
-            }
-            ], 
-    function(err,data){
-        if(err){
-            resp.json({ message: 'Unable to connect to users' });
+  } else {
+
+    var totalS = 0; 
+        for (let x in data){
+            totalS += data[x].total;
         }
-        else
-        {
-            console.log(req.params.user);
-            resp.json(data);
-        }
-    });
-});
+        var y =0;
+    for (let x in data){
+        
+        data[x].total = (data[x].total/totalS);
+         y +=data[x].total ;
+    }
+      resp.json(data);
+    }
+  }); 
+ 
+  }
+);
 
 
-
-
-/*
-usersRouter.defineRouting(app);
-companiesRouter.defineRouting(app);
-portfolioRouter.defineRouting(app);
-pricesRouter.defineRouting(app)*/
 
 // Use express to listen to port
 var port = process.env.PORT || 8080;
