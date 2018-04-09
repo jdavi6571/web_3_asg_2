@@ -160,6 +160,9 @@ app.route('/users/:email/:password')
             }
             else {
                 resp.send({ 
+                    "id":data[0].id,
+                    "first_name":data[0].first_name,
+                    "last_name":data[0].last_name,
                     "code": 200,
                     "success": "Login successful"
             });
