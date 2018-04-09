@@ -114,9 +114,7 @@ app.route('/users/:email/:password')
                           resp.json({ message: 'Unable to connect to users' });
                      }
                      else {
-                        
-    
-                      
+
                     var saltedHash = crypto.createHash('md5').update(req.params.password + data[0].salt).digest('hex');
                     
                     console.log("Compared pass: " + data[0].password);
@@ -128,7 +126,6 @@ app.route('/users/:email/:password')
          
                     
         });
-             
                function queryChecker(saltedHash){
                    User.find( {password: saltedHash}, { id: 1, first_name: 1, last_name: 1}, 
                         function(err, data)

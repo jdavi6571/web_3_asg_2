@@ -60,12 +60,19 @@ app.route('/users/:email/:password')
                    User.find( {password: saltedHash}, { id: 1, first_name: 1, last_name: 1}, 
                         function(err, data)
                         {
+                           //Login code: http://technoetics.in/handling-user-login-registration-using-nodejs-mysql/
                            if(err){
-                                 resp.json({ message: 'Wrong password' });
+                                 resp.send({ 
+                                     "code": 204,
+                                     "success": "Login has failed"
+                                 });
                             }
                             else {
-                                resp.json(data);
-                                console.log("data: " + data);
+                                resp.send({ 
+                                    "code": 200,
+                                    "success": "Login successful"
+                                 });
+                                //console.log("data: " + data);
                             }
                             });
                }
