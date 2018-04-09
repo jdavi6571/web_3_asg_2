@@ -114,7 +114,9 @@ app.route('/users/:email/:password')
                           resp.json({ message: 'Unable to connect to users' });
                      }
                      else {
-
+                        
+    
+                      
                     var saltedHash = crypto.createHash('md5').update(req.params.password + data[0].salt).digest('hex');
                     
                     console.log("Compared pass: " + data[0].password);
@@ -123,37 +125,31 @@ app.route('/users/:email/:password')
   
                      }
                     }
-         
+                    
                     
         });
+             
                function queryChecker(saltedHash){
                    User.find( {password: saltedHash}, { id: 1, first_name: 1, last_name: 1}, 
                         function(err, data)
                         {
+                           //Login code: http://technoetics.in/handling-user-login-registration-using-nodejs-mysql/
                            if(err){
-                                 resp.json({ message: 'Wrong password' });
+                                 resp.send({ 
+                                     "code": 204,
+                                     "success": "Login has failed"
+                                 });
                             }
                             else {
-                                resp.json(data);
-                                console.log(data);
+                                resp.send({ 
+                                    "code": 200,
+                                    "success": "Login successful"
+                                 });
+                                //console.log("data: " + data);
                             }
                             });
                }
     });
-    
-    app.route('/prices/:symbol')
-    .get(function (req,resp) {
-        Price.find( {name: req.params.symbol} , {date: 1}, 
-         function(err,data){
-        if(err){
-            resp.json({ message: 'Unable to connect to users' });
-        }
-        else
-        {
-            resp.json(data);
-        }
-    });
-  });
   
 app.route('/prices/info/:symbol')
     .get(function (req,resp) {
