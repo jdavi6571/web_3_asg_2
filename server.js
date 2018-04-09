@@ -123,7 +123,7 @@ app.route('/companies/all')
     });
 
 app.route('/users/:email/:password')
-    .post(function (req, resp) {
+    .all(function (req, resp) {
         
               
                   User.find( {email: req.params.email}, { salt: 1, password: 1},
