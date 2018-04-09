@@ -241,26 +241,54 @@ app.route('/prices/stocks/average/close/:symbol')
         }
         else
         {
-            resp.json(data);
+            let x = data;
+            let y = ['January','Febraury','March','April', 'May', 'June', 'July',
+            'August','September', 'October','November','December'];
+            
+           for(var i = 0; i < x.lenth; i++){
+                x[i]._id = y[i];
+            }
+            resp.json(x);
+
         }
     });
 });
 
 app.route('/portfolio/user/:user')
     .get(function (req,resp) {
-        Portfolio.find( {user: req.params.user} , {id: 1, symbol:1, user: 1, owned: 1}, 
+        let totalWorth = 0;
+         Portfolio.find( {user: req.params.user} , {id: 1, symbol:1, user: 1, owned: 1}, 
          function(err,data){
+            
+      
         if(err){
             resp.json({ message: 'Unable to connect to users' });
         }
         else
         {
-            console.log(req.params.user);
-            resp.json(data);
+             console.log(data);
+               resp.json(data);
+                       /*Price.find( {symbol: data.symbol} , {close:1, symbol:1, owned: 1}, 
+                       function(err, dataa){
+
+                        if(err){
+                            resp.json({ message: 'Unable to connect to users' });
+                        }
+                        else
+                        {
+                             resp.json(dataa);
+                             
+                             //data[i].close;
+                             console.log(dataa)
+                        }
+                           
+                       });*/
+                           
+             
         }
     });
 });
- 
+
 
 app.get('/portfolio/percentage/:user', function (req,resp)
   {
