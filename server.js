@@ -189,9 +189,9 @@ app.route('/prices/info/:symbol')
 
 app.route('/prices/stocks/:symbol/:month')
     .get(function (req, resp) {
-        let startDay = new Date(2017,req.params.month,1).toISOString();
-        let endDay = new Date(2017,req.params.month+1,0).toISOString();
-        Price.find( {name: req.params.symbol, date: {"$gte":startDay,"$lte": endDay }} 
+        let startDay = new Date(2017,req.params.month-1,1).toISOString();
+        let endDay = new Date(2017,req.params.month,0).toISOString();
+        Price.find( {name: req.params.symbol, date: {"$gte":startDay,"$lt": endDay }} 
         , { date: 1, open: 1, high: 1,
     low: 1,  close: 1, volume: 1, name: 1}, 
     function(err,data){
@@ -234,21 +234,27 @@ app.route('/prices/stocks/average/close/:symbol')
                 avgClose: { $avg: "$close" } 
                       } 
             },
-            {  $sort: { "_id": 1, "avgClose": 1 } } ], 
+            {  $sort: { "_id": 1, "avgClose": 1, "month":1 } } ], 
     function(err,data){
         if(err){
             resp.json({ message: 'Unable to connect to users' });
         }
         else
         {
-            let x = data;
+            
             let y = ['January','Febraury','March','April', 'May', 'June', 'July',
             'August','September', 'October','November','December'];
-            
-           for(var i = 0; i < x.lenth; i++){
-                x[i]._id = y[i];
+
+            for(var i = 0; i < data.lenth; i++){
+                let tempMonth = y[i];
+                let tempObj = {
+                    month: tempMonth
+                };
+                data[i].push(tempObj);
             }
-            resp.json(x);
+            console.log(data);
+            resp.json(data);
+  
 
         }
     });
