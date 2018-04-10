@@ -86,8 +86,7 @@ app.use(function (req, res, next) {
 app.route('/companies/stocks/:symbol')
     .get(function (req, resp) {
         
-        
-        
+
                   Company.find( {symbol: req.params.symbol}, { _id: 1, symbol: 1, name: 1,
                   sector: 1, subindustry: 1, address: 1, date_added: 1, CIK: 1, frequency: 1},
                     function(err, data){
@@ -101,7 +100,6 @@ app.route('/companies/stocks/:symbol')
                      }
                     }
          
-                    
         });
     });
 
@@ -262,38 +260,72 @@ app.route('/prices/stocks/average/close/:symbol')
 
 app.route('/portfolio/user/:user')
     .get(function (req,resp) {
-        let totalWorth = 0;
-         Portfolio.find( {user: req.params.user} , {id: 1, symbol:1, user: 1, owned: 1}, 
-         function(err,data){
-            
-      
-        if(err){
-            resp.json({ message: 'Unable to connect to users' });
-        }
-        else
-        {
-             console.log(data);
-               resp.json(data);
-                       /*Price.find( {symbol: data.symbol} , {close:1, symbol:1, owned: 1}, 
-                       function(err, dataa){
-
-                        if(err){
-                            resp.json({ message: 'Unable to connect to users' });
-                        }
-                        else
-                        {
-                             resp.json(dataa);
-                             
-                             //data[i].close;
-                             console.log(dataa)
-                        }
-                           
-                       });*/
-                           
-             
-        }
-    });
+        Portfolio.find( {user: req.params.user} , {id: 1, symbol:1, user: 1, owned: 1}, 
+                function(err,data){
+                    if(err){
+                        resp.json({ message: 'Unable to connect to users' });
+                    }
+                    else
+                    {
+                     resp.json(data);   
+                    }
+                });
 });
+        /*
+        var initializePromise = () => {
+            var l_data1 = [];
+            var l_data2 =[];
+            var l_data3 =[];
+            var promises = [];
+            Portfolio.find( {user: req.params.user} , {id: 1, symbol:1, user: 1, owned: 1}, 
+                function(err,data){
+                    if(err){
+                        resp.json({ message: 'Unable to connect to users' });
+                    }
+                    else
+                    {
+                        l_data1 = data;
+                        var i;
+                        var y;
+                        for (i=0;i < l_data1.length;i++) {
+                            Price.find({name: l_data1[i].symbol}).
+                            select('close name').sort({"date": -1}).limit(1).exec(
+                                function(err,data2){
+                                    if(err){
+                                        resp.json({ message: 'Unable to connect to users' });
+                                    }
+                                    else
+                                    {
+                                        return new Promise(function(resolve,reject) {
+                                            l_data2.push(data2[0]);
+                                        });
+                                    }
+                                });
+                        }
+                        for (y=0;y < l_data1.length;y++) {
+                            Company.find({symbol: l_data1[y].symbol}).
+                            select('name').exec(
+                                function(err,data3){
+                                    if(err){
+                                        resp.json({ message: 'Unable to connect to users' });
+                                    }
+                                    else
+                                    {
+                                        l_data3.push(data3[0]);
+                                    }
+                                });
+                        }
+                    }
+                });
+                
+                return l_data3;
+        }
+        initializePromise.then(function(result) {
+            console.log(result);
+        });
+    });
+*/
+
 
 
 app.get('/portfolio/percentage/:user', function (req,resp)
@@ -318,7 +350,7 @@ app.get('/portfolio/percentage/:user', function (req,resp)
     for (let x in data){
         
         data[x].total = (data[x].total/totalS);
-         y +=data[x].total ;
+        y +=data[x].total ;
     }
       resp.json(data);
     }
